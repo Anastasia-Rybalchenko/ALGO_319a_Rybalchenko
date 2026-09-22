@@ -1,6 +1,5 @@
- // Бібліотека та компоненти
+// Бібліотека та компоненти
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
@@ -11,7 +10,10 @@ int main ()
 //================== Begin 11 ==================
 //Декларація змінних 
 
-double S, L, R, pi=3.14 ;
+double S, L, R;
+
+// Константа
+const double pi = 3.14;
 
 //communication
 cout << "================== Begin 11 ==================" << endl;
@@ -34,3 +36,4 @@ cin >> L;
  
 return 0;
 }
+
