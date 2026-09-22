@@ -1,6 +1,5 @@
 // Бібліотека та компоненти
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
@@ -20,7 +19,7 @@ cout <<"Значення x = ";
 cin >> x;
 
 // розрахунок результату
-y = 3 * pow(x, 6)- 6* pow(x, 2)- 7;
+y = 3 * x * x * x * x * x * x - 6 * x * x - 7;
 
 // вивід результату
  cout << "y = " << y << endl;
