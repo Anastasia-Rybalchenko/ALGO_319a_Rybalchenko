@@ -59,7 +59,7 @@ void Figure3 () {
    cout << "Введіть a, r: ";
    cin >> a >> r;
    
-   if (cin.fail() || a <= 0)
+   if (cin.fail() || a <= 0) // Перевірка значення
     {
    cerr << "Некоректні дані!" << endl;
 return;
@@ -67,7 +67,7 @@ return;
 
 cout << "Введіть координати точки (x, y): ";
 cin >> x >> y;
-   if (!cin)
+   if (!cin) // Перевірка значення
    {
    cout << "Не числові дані!" << endl;
 return;
