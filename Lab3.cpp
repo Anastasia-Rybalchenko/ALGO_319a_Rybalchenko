@@ -67,6 +67,7 @@ return;
 
 cout << "Введіть координати точки (x, y): ";
 cin >> x >> y;
+   
    if (!cin) // Перевірка значення
    {
    cout << "Не числові дані!" << endl;
@@ -82,7 +83,7 @@ return;
 
     // Умови для жовтої області 
     bool inTriangle = x >= 0 && y >= 0 && (x + y <= a); // точка всередині трикутника
-    bool outsideCircle = circle > R2;                   // точка поза колом
+    bool outsideCircle = circle > R2; // точка поза колом
 
     if (inTriangle && outsideCircle) {
         cout << "Точка належить області Варіанту 3" << endl;
