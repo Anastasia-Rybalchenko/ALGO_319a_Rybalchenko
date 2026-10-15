@@ -79,7 +79,7 @@ void task_if23()
 return;
 }
 
-cout << "Нове значення (x4, y4): " << x4 << " " << y4 << endl;
+cout << "Значення (x4, y4): " << x4 << " " << y4 << endl;
 
 }
 
