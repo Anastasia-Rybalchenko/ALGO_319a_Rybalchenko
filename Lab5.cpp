@@ -126,7 +126,7 @@ void Figure3() {
 }
 
 void Series12() {
-    cout << "================ Series12 ================" << endl;
+    cout << "================ Series.12 ================" << endl;
     
     // Декларація змінних
     double x = getValidDouble("Введіть значення x: ");
@@ -155,7 +155,7 @@ void Series12() {
 }
 
 void Convergence18() {
-    cout << "================ Convergence18 ================" << endl;
+    cout << "================ Convergence.18 ================" << endl;
     
     // u_n = n^3 / n!
     // Граничні значення e (мала величина) та g (велика величина)
