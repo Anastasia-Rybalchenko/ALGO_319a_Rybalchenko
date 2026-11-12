@@ -102,7 +102,7 @@ void Figure3() {
     double r = getValidDouble("Введіть радіус кола (r): ");
     int n = getValidInt("Введіть кількість точок (1-100): ", 1, MAX_SIZE);
     
-    // Декларація масивів для координат (як у лекції 6)[cite: 17]
+    // Декларація масивів для координат 
     double x[MAX_SIZE];
     double y[MAX_SIZE];
     
@@ -167,7 +167,6 @@ void Convergence18() {
     double fact = 1;
     int n = 1;
     
-    // Початок циклу обчислень[cite: 1, 2]
     do {
         // Обчислення n!
         fact *= n;
