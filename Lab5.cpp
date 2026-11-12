@@ -25,9 +25,8 @@ double getValidDouble(const string& prompt);
 
 int main() {
     
-    int menu; // змінна для номера завдання[cite: 1]
+    int menu; 
     
-    // Початок циклу меню[cite: 1]
     do {
         cout << "================ МЕНЮ ================" << endl;
         cout << "1 - Завдання 1" << endl;
@@ -37,17 +36,16 @@ int main() {
         
         menu = getValidInt("Оберіть пункт меню: ", -1, 3);
         
-        // Перемикання між завданнями[cite: 1, 18]
         switch (menu) {
-            case 1: Figure3(); break; // 1 - завдання 1[cite: 1, 18]
-            case 2: Series12(); break; // 2 - завдання 2[cite: 1, 18]
-            case 3: Convergence18(); break; // 3 - завдання 3[cite: 1, 18]
-            case -1: cout << "Вихід з програми..." << endl; // -1 - вихід[cite: 1]
+            case 1: Figure3(); break; // 1 - завдання 1
+            case 2: Series12(); break; // 2 - завдання 2
+            case 3: Convergence18(); break; // 3 - завдання 3
+            case -1: cout << "Вихід з програми..." << endl; // -1 - вихід
                 break;
             default: 
-                cout << "Неправильний номер завдання!" << endl; // повідомлення про помилку[cite: 1, 18]
+                cout << "Неправильний номер завдання!" << endl; // повідомлення про помилку
         }
-    } while (menu != -1); // умова виконання: поки не -1[cite: 1]
+    } while (menu != -1); // умова виконання: поки не -1
     
     return 0;
 }
@@ -178,7 +176,7 @@ void Convergence18() {
         cout << "n = " << n << ", u_n = " << un << ", поточна сума = " << sum << endl;
         
         n++;
-    } while (fabs(un) >= e && fabs(un) <= g); // умова продовження циклу[cite: 2]
+    } while (fabs(un) >= e && fabs(un) <= g); // умова продовження циклу
     
     // Визначення результату збіжності
     if (fabs(un) < e) {
